@@ -9,6 +9,7 @@ int GetNumber() // метод введения числа и возврата е
 void GetPrintPow(int number)
 {
     int count = 1;
+    Console.WriteLine("Таблица квадратов до числа " + number + ": ");
     while (count <= number)
     {
     Console.Write(Math.Pow((count),2) + " ");
